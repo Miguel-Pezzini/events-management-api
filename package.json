@@ -1,0 +1,33 @@
+{
+  "name": "events-management",
+  "version": "1.0.0",
+  "description": "Event mamanagement API",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx server.ts",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "Miguel Pezzini Kuhr",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/jwt": "^8.0.1",
+    "@prisma/client": "^5.14.0",
+    "bcrypt": "^5.1.1",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.27.0",
+    "tsx": "^4.11.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^20.12.12",
+    "eslint": "^8.57.0",
+    "prisma": "^5.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
